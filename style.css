@@ -1,0 +1,46 @@
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(12, 1fr) ;
+    border: 2px solid red;
+    border-radius: 5px;
+    gap: 10px;
+}
+.box{
+    
+    padding: 15px;
+    
+    text-align: center;
+    color: rgb(14, 14, 14);
+    background-color: yellow;
+    
+}
+.header{
+    grid-column: auto/span 12;
+}
+
+.Nevagition{
+    grid-column: auto/span 12;
+    background: red;
+}
+.container-1{
+    grid-row: auto/span 30;
+    background: yellowgreen;
+
+}
+.main-content{
+    grid-row: auto/span 30;
+    grid-column: auto/span 10;
+    background: orangered;
+}
+.container-2{
+    grid-row: auto/span 30;
+    background: yellowgreen;
+ 
+}
+    
+.fotter{
+    grid-column: auto/span 12;
+    background: aquamarine;  
+}
+
+  
